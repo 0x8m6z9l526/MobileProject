@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4E2B2B"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="78dp"
+            android:background="#F6B2B2"
+            android:fontFamily="@font/barriecito"
+            android:text="@string/michelin_metric"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="816dp"
+            android:layout_height="84dp"
+            android:autofillHints=""
+            android:backgroundTint="#CA7272"
+            android:drawableTint="#EC7E7E"
+            android:ems="10"
+            android:foregroundTint="#D86B6B"
+            android:inputType="text"
+            android:shadowColor="#E16565"
+            android:text="@string/type_restaurant"
+            android:textColor="#DA9393"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="306dp"
+            android:layout_height="234dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/at_this_moment_is_empty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText"
+            app:layout_constraintVertical_bias="0.636"
+            app:srcCompat="@drawable/ezbwrwqo_pcuo255a_2_1200x800" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="266dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="#E68989"
+            android:fontFamily="@font/barriecito"
+            android:text="@string/visited"
+            android:textAlignment="gravity"
+            android:textColor="#F1A0A0"
+            android:textCursorDrawable="?android:attr/listChoiceIndicatorMultiple"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="155dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D89191"
+            android:contentDescription="TopMark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.978"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText"
+            app:srcCompat="@android:drawable/btn_star_big_off"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+            android:layout_width="502dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="#E48B8B"
+            android:backgroundTint="#E37979"
+            android:drawableTint="#CF7575"
+            android:fontFamily="@font/barriecito"
+            android:foreground="@color/white"
+            android:foregroundTint="#6AE69393"
+            android:shadowColor="#CC7A7A"
+            android:text="@string/leave_a_review"
+            android:textColor="#512121"
+            android:textColorHighlight="#CA6969"
+            android:textColorLink="#BD5C5C"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.36"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:rippleColor="#E39494" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

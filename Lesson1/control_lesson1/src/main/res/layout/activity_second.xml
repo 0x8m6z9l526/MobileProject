@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#472C2C"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="New life for mirea activity!"
+        android:textAlignment="center"
+        android:textColor="#F6C1C1" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:backgroundTint="#CF6666"
+        android:drawableTint="#D88181"
+        android:foregroundTint="#DC8282"
+        android:shadowColor="#DD7B7B"
+        android:text="Первая кнопка"
+        android:textColorHighlight="#D57878"
+        android:textColorHint="#DA7B7B"
+        android:textColorLink="#C16B6B"
+        app:iconTint="#DD7575"
+        app:rippleColor="#E38D8D"
+        app:strokeColor="#C56666" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:backgroundTint="#CF6666"
+        android:text="Вторая кнопка" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:backgroundTint="#CF6666"
+        android:text="Третья кнопка" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:backgroundTint="#CF6666"
+        android:text="Четвёртая кнопка" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:backgroundTint="#CF6666"
+        android:text="Пятая кнопка" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:backgroundTint="#CF6666"
+        android:text="Шестая кнопка" />
+</LinearLayout>

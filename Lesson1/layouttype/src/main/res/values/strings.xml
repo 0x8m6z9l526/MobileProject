@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Layout Type</string>
+    <string name="michelin_metric">Michelin Metric</string>
+    <string name="pos1">Pos1</string>
+    <string name="pos2">Pos2</string>
+    <string name="pos3">Pos3</string>
+    <string name="pos5">Pos5</string>
+    <string name="pos6">Pos6</string>
+    <string name="pos4">Pos4</string>
+    <string name="Discard">🚫</string>
+    <string name="checkbox">CheckBox</string>
+</resources>

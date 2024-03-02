@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">control_lesson1</string>
+    <string name="visited">Visited</string>
+    <string name="type_restaurant">Type restaurant...</string>
+    <string name="michelin_metric">Michelin Metric</string>
+    <string name="leave_a_review">Leave a review</string>
+    <string name="at_this_moment_is_empty">At this moment is empty!</string>
+    <string name="new_life_for_mirea_activity">New life for mirea activity!</string>
+</resources>
